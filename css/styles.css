@@ -1,0 +1,138 @@
+:root {
+  --darkCyan: hsl(185, 75%, 39%);
+  --veryDarkBlue: hsl(229, 23%, 23%);
+  --darkGrayishBlue: hsl(227, 10%, 46%);
+  --darkGray: hsl(0, 0%, 59%);
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--darkCyan);
+  background-image:
+    url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position:
+    top -50vh right 50vw,
+    top 50vh left 50vw;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 20rem;
+  height: auto;
+
+  background-color: white;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 1rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, .3);
+}
+
+/* header */
+.header-img {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+/* main */
+.main {
+  margin: 0 0 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  width: 100%;
+}
+
+.main-title {
+  margin-bottom: .5rem;
+}
+
+.main-title-name {
+  display: inline-block;
+  color: var(--veryDarkBlue);
+  font-weight: 700;
+}
+
+.main-title-age {
+  color: var(--darkGray);
+  font-weight: 700;
+}
+
+.main-city-text {
+  color: var(--darkGray);
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.footer-title {
+  color: var(--veryDarkBlue);
+  font-weight: 700;
+}
+
+.footer-text {
+  font-size: .6rem;
+  color: var(--darkGray);
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+  padding: 0 3rem;
+
+  font-size: .7rem;
+  color: var(--veryDarkBlue);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: .7rem;
+}
+
+@media (max-width: 375px) {
+
+  .container {
+    min-width: 15rem;
+  }
+
+  .header-img {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
