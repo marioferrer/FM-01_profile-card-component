@@ -23,8 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-ubjyu9jz5B)
+- Live Site URL: [Live site with GitHub Pages](https://marioferrer.github.io/FM-01_profile-card-component/)
 
 ## My process
 
@@ -61,6 +61,6 @@ I need to improve on how to approach the project when naming the classes and str
 
 - Github - [My GitHub Profile](https://github.com/marioferrer)
 - Frontend Mentor - [@marioferrer](https://www.frontendmentor.io/profile/marioferrer)
-- Twitter - [@marlewis_code](https://www.twitter.com/marlewis)
+
 
 
